@@ -1,0 +1,23 @@
+{
+  "name": "TextConverter",
+  "productName": "Text Converter",
+  "version": "1.0.0",
+  "description": "Text convert to mp3",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristian Yosafat Hernández Ruiz",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.10",
+    "electron-packager": "^12.2.0"
+  },
+  "dependencies": {
+    "command-exists": "^1.2.8",
+    "fix-path": "^2.1.0",
+    "node-lame": "^1.2.0",
+    "say": "^0.15.0"
+  }
+}
